@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+/* barra navegacao*/
+nav{
+    background-color: whitesmoke;
+    color: white;
+    padding: 10px;
+}
+
+.menu_center{
+
+    text-align: center;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display:inline-block;
+    margin-right: 20px;
+}
+
+a{ 
+    color: antiquewhites;
+    text-decoration: none;
+}
+
+img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
