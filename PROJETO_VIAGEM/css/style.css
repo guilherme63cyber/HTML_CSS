@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+/*body {
+    background-color: #f1efef;
+
+}*/
+
+/* Estilização container */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container ul li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 70px 20px;
+    color: aliceblue;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header .menu-desktop nav ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.btn-contato{
+    margin-top: 60px;
+}
+
+header .menu-desktop nav ul li a {
+    text-decoration: none;
+    color: rgb(100, 80, 44);
+    transition: 0.2s;
+    display: inline-block;
+}
+
+header .btn-contato button {
+    width: 120px;
+    height: 40px;
+}
+
+header .btn-contato button,
+.main-site button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header .btn-contato button:hover,
+.main-site button:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu-desktop nav a:hover {
+    transform: scale(1.1);
+}
+
+/* Estilização main-site */
+section.main-site {
+    height: 98vh;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/fotos-premium/imagine-sistemas-de-ia-analisando-postagens-em-midias-sociais_1169665-86569.jpg?semt=ais_hybrid);
+
+}
+
+.main-site .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.main-site .text-site h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.main-site .text-site h1 span {
+    display: block;
+    font-weight: 600;
+
+}
+
+.main-site .text-site p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.main-site .text-site p span {
+    display: block;
+}
+
+.main-site button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* Estilização vantagens*/
+section.vantagens {
+    padding: 80px 0;
+}
+
+.vantagens .itens-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+    text-align: justify;
+
+}
+
+.vantagens .itens-container .img-itens img {
+
+    width: 600px;
+    height: 350px;
+}
+
+
+
+.vantagens .itens-container .text-itens h3 {
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.itens-container .text-itens h3 span {
+    font-weight: lighter;
+}
+
+
+
+/* estilização botão contato*/
+section.contato {
+    background-color: rgb(241, 184, 77);
+    padding: 80px 0;
+    height: 500px;
+}
+
+.text-contato,
+.icons-contato {
+    display: inline-block;
+    width: 100%;
+    margin-left: -6px;
+    vertical-align: middle;
+    color: white;
+
+}
+
+.contato .text-contato h3 {
+    font-size: 2.5em;
+    line-height: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.contato .text-contato h3 span {
+    display: block;
+    font-weight: 600;
+}
+
+.contato .icons-contato a {
+    text-decoration: none;
+
+}
+
+.contato .icons-contato button {
+    display: block;
+    justify-content: space-between;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 0 60px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    font-size: 18px;
+}
+
+.contato .icons-contato button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Estilização hotéis*/
+.hoteis {
+    height: 600px;
+    background-image: url(https://voyageursintrepides.com/wp-content/uploads/2022/05/ou-dormir-cancun-quartier-hotel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+    text-align: center;
+
+}
+
+.hoteis>.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hoteis>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.hoteis h3 span {
+    display: block;
+    font-weight: 600;
+}
+
+.hoteis p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hoteis h3 {
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 200;
+}
+
+.hoteis button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 220px;
+    height: 60px;
+
+}
+
+.hoteis button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+/* estilização Como-viajar*/
+section.como-funciona {
+    padding: 80px 0;
+
+}
+
+.text-funciona,
+.instrucoes {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.como-funciona .text-funciona {
+    position: sticky;
+    top: 50%;
+    padding-bottom: 60px;
+}
+
+.como-funciona .text-funciona h3 {
+    font-size: 4em;
+    line-height: 60px;
+    font-weight: 200;
+
+}
+
+.como-funciona .text-funciona h3 span {
+    display: block;
+    font-weight: 600;
+}
+
+.instrucoes .instru-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.instrucoes .instru-box img {
+    width: 100%;
+}
+
+.instrucoes .instru-box h4 span {
+    font-weight: 200;
+
+}
+
+.instrucoes .instru-box h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/*Estilização Footer*/
+footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 30px 0;
+}
+
+footer .top-footer button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 18px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+footer .middle-footer {}
+
+/*Menu dinamico*/
+
+header .logo img.logo {
+    width: 250px;
+}
+
+header .logo img.logo-1 {
+    display: block;
+}
+
+header.rolar {
+    background-color: white;
+    transition: 1s;
+    padding: 20px 0;
+}
+
+header.rolar .menu-desktop nav ul li a {
+    color: black;
+}
+
+header.rolar .btn-contato button {
+    border: 1px solid black;
+    color: black;
+}
+
+header.rolar .logo .logo-2 {
+    display: block;
+}
+
+header.rolar .btn-contato button:hover {
+    background-color: black;
+    color: aliceblue;
+}
+section.como-funciona {
+    padding: 80px 0;
+
+}
+
+.text-funciona, .instrucoes {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.como-funciona .text-funciona {
+    position: sticky;
+    top: 50%;
+    padding-bottom: 60px;
+}
+
+.como-funciona .text-funciona h3 {
+    font-size: 4em;
+    line-height: 60px;
+    font-weight: 200;
+
+}
+
+.como-funciona .text-funciona h3 span {
+    display: block;
+    font-weight: 600;
+}
+
+.instrucoes .instru-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.instrucoes .instru-box img {
+    width: 100%;
+}
+
+.instrucoes .instru-box h4 span {
+    font-weight: 200;
+
+}
+
+.instrucoes .instru-box h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}

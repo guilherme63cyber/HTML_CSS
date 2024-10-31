@@ -1,0 +1,128 @@
+
+body{
+    background-color: white;
+}
+
+.p0{
+    text-align: left;
+}
+.p1{
+     color: red;
+     text-align: left;
+}
+.p2{
+    text-align: right;
+}
+
+.p3{
+    color: blue;
+    text-align: right;
+}
+.p4{
+    text-align: center;
+}
+
+.p5{
+    color: green;
+    text-align: center;
+}
+.p6{
+    text-align: justify;
+}
+.p7{
+    color: purple;
+    text-align: justify;
+}
+.p8{
+    text-align: left;
+}
+.p9{
+    background-color: yellow;
+    color: black;
+    text-align: left;
+}
+.p10{
+     text-align: right;
+}
+.p11{
+     background-color: red;
+     color: blue;
+     text-align: right;
+}
+.p12{
+    text-align: center;
+}    
+.p13{
+  background-color: green;
+  color: yellow;
+}
+.p14{
+     text-align: justify;
+}
+.p15{
+     background-color: black;
+     color: white;
+     text-align: justify;
+}
+.p16{
+
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class"p1"{
+    background-color: yellow;
+    text-align: left;
+    color: black;
+}
+h3{
+    color: ;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+h1{
+     background-color: gray;
+     font-weight: bold;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;    
+     color: white; 
+     border: 2px solid black;
+}
+h2{
+     background-color: gray;
+     font-weight: bold;    
+     text-align: center;
+}
+h3{
+     background-color: gray;
+     font-weight: bold ;    
+     text-align: center;
+}
+h4{
+     background-color: gainsboro;
+     font-weight: bold;
+     text-align: center;
+}
+h5{
+     background-color: gainsboro;
+     text-align: center;
+}
+h6{
+     background-color: gainsboro;
+     text-align: center;
+}
+p{
+    background-color: cadetblue;
+    color: white;
+    font-size: 40px;
+}
+img {
+    width: 30%;
+}

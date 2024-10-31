@@ -1,0 +1,55 @@
+
+body{
+     background-image: url(https://deskfy.io/wp-content/uploads/2019/04/sucesso-nubank-800x450-1.png);    
+     background-repeat: no-repeat;   
+     background-size: 1500px;
+     
+}
+
+form{
+    width: 400px;
+    height: 390px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 1350px;
+    margin-top: 200px
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid purple;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 90px;
+    margin-bottom: 70px;
+    margin-left: 1360px;
+}
+
+textarea{
+    width: 392px;
+    height: 230px;
+}
+
+button:hover{
+    background-color: #6e036e;
+}

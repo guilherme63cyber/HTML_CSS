@@ -1,0 +1,28 @@
+
+header{
+    width: 1900px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+ul{
+    margin: 10px auto;
+    width: 500px;
+    height: 60px;
+    list-style: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    font-size: small;
+}
+
+li{
+    margin-top: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+
+
+

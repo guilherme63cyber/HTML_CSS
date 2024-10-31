@@ -1,0 +1,21 @@
+
+.grid-container{
+    display: grid;
+    /*grid template colunas iguais*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /*gera um espaçamento entre as imgs*/
+}
+
+
+
+.grid-item{
+    width: 100%;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.grid-container p{
+    color: red;
+    text-align: justify;
+    width: 270px;
+}
